@@ -3,7 +3,7 @@ This script sets up CodeIgniter on Apache.  To get the most out of the script, y
 
 ## Instructions
 
-1. Download the script, say to /tmp
+1. Download the script, codeigniter.sh, to a convenient directory, say /tmp
 2. Edit the script with your favourite text editor and adjust the settings for your environment in the top of the script.
 3. The following items need editing.  Adjust them according to your environment.
 ```
