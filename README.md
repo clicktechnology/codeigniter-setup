@@ -5,7 +5,7 @@ This script sets up CodeIgniter on Apache.  To get the most out of the script, y
 
 1. Download the script, say to /tmp
 2. Edit the script with your favourite text editor and adjust the settings for your environment in the top of the script.
-3. The following items need editing..
+3. The following items need editing.  Adjust them according to your environment.
 ```
 targetroot="/var/www/example.co.uk"
 base_url="https://www.example.co.uk/"
@@ -16,9 +16,15 @@ db_name="my_database"
 ```
 4. Now mark the script as executable.
 ```
-chmod +x /tmp/
+chmod +x /tmp/codeigniter.sh
 ```
-Once these items have been edited, the script can be saved and then ru
+5. Run the script.
+```
+/tmp/codeigniter.sh
+```
+The system will ask you for an admin password for sudo, so re-enter your login password for your user account.
+
+The script will run and complete.  You will still need to create and apache configuration file for the new site and enable it.  That's for the next version of the script!
 
 ## Creating a MySQL database
 
