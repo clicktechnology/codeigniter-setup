@@ -3,7 +3,7 @@ This script sets up CodeIgniter on Apache.  To get the most out of the script, y
 
 ## Instructions
 
-1. Download the script.
+1. Download the script, say to /tmp
 2. Edit the script with your favourite text editor and adjust the settings for your environment in the top of the script.
 3. The following items need editing..
 ```
@@ -14,7 +14,11 @@ db_username="my_database_user"
 db_password="secretpassword"
 db_name="my_database"
 ```
-Once these items have been edited
+4. Now mark the script as executable.
+```
+chmod +x /tmp/
+```
+Once these items have been edited, the script can be saved and then ru
 
 ## Creating a MySQL database
 
